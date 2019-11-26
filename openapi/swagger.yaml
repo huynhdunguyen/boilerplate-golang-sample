@@ -1,0 +1,29 @@
+basePath: /api
+host: localhost:8080
+info:
+  contact: {}
+  description: This is a sample server celler server.
+  license: {}
+  title: Source Go API docs
+  version: "1.0"
+paths:
+  /healthcheck:
+    get:
+      consumes:
+      - application/json
+      description: healthcheck
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            type: string
+        "500":
+          description: Internal server error
+          schema:
+            type: string
+      summary: get list healthcheck
+      tags:
+      - HealthCheck
+swagger: "2.0"
