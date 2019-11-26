@@ -1,7 +1,7 @@
 # Guide to use
 
-## Generate docs
 ```
+Generate docs
 swag init -g cmd\api\main.go  --output openapi
 ```
 
